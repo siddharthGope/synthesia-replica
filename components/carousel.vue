@@ -90,7 +90,7 @@ export default {
   background-color: #e9ecf6;
   color: #e9ecf6;
   align-self: stretch;
-  margin: 1rem 0 5rem;
+  margin: 1rem 0 1rem;
 }
 @keyframes logoloop {
   0% {

@@ -106,7 +106,7 @@ export default {};
   background-color: #fff;
   border-radius: 1rem;
   padding: 2rem 2.5rem;
-  margin-bottom: 10rem;
+  margin: 5rem 0 10rem;
 }
 .features-avtar2 {
   height: 300px;
@@ -194,9 +194,9 @@ export default {};
   width: 300px;
 }
 .logos-wrap {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 6rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6rem;
 }
 .bbc-logo {
   height: 40px;

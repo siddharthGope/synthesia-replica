@@ -98,6 +98,7 @@ section {
 .templates {
   background-color: #2c374f;
 }
-.integration {
+.tabs-section {
+  padding: 0 6rem 5rem;
 }
 </style>

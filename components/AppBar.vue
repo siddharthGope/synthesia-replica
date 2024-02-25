@@ -1,16 +1,14 @@
 <template>
   <div class="d-flex justify-space-around align-center appbar-wrap">
     <div class="logowrap">
-      <img
-        class="logo"
-        src="https://www.beezlabs.com/static/img/beez_logo1.png"
-      />
+      <img class="logo" src="/images/synthesia logo.svg" />
     </div>
     <div class="d-flex justify-space-around align-center navigation-wrap">
       <v-menu
         v-for="(item, i) in items"
         :key="i"
         transition="slide-y-transition"
+        open-on-hover=""
       >
         <template v-slot:activator="{ props }">
           <div class="titles nav-margin-left" v-bind="props">
@@ -33,7 +31,7 @@
       </v-menu>
     </div>
     <div class="d-flex justify-space-around align-center nav-buttons-wrap">
-      <div class="login">Log in</div>
+      <div class="caption">Log in</div>
       <div class="blue-button nav-margin-left">Create Account</div>
     </div>
   </div>
@@ -130,12 +128,14 @@ export default {
   font-family: "Poppins", sans-serif;
   border-bottom: 1px solid #e9ecf6;
   transition: background-color 0.5s ease !important;
+  padding: 1rem 0;
 }
 .logo {
-  height: 100px;
+  height: 30px;
 }
 .titles {
   color: var(--grey-darkest);
+  margin-right: 1rem;
 }
 .titles:hover {
   color: #084df2;
