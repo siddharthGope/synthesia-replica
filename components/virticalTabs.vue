@@ -13,8 +13,7 @@
           <div class="tab-texts-wrap">
             <div class="tab-desc-heading">Create your script</div>
             <div class="tab-desc-desc">
-              Work better, together by sharing your video with your team to get
-              feedback.
+              Work better, together by sharing.
             </div>
           </div>
         </v-tab>
@@ -23,8 +22,7 @@
           <div class="tab-texts-wrap">
             <div class="tab-desc-heading">Customize your video</div>
             <div class="tab-desc-desc">
-              Work better, together by sharing your video with your team to get
-              feedback.
+              Work better, together by sharing.
             </div>
           </div>
         </v-tab>
@@ -33,8 +31,7 @@
           <div class="tab-texts-wrap">
             <div class="tab-desc-heading">Collaborate</div>
             <div class="tab-desc-desc">
-              Work better, together by sharing your video with your team to get
-              feedback.
+              Work better, together by sharing.
             </div>
           </div>
         </v-tab>
@@ -44,7 +41,6 @@
           <div class="vertical-tabs-img-wrap" flat>
             <img src="/images/vertical-tabs.png" class="vertical-tabs-img" />
           </div>
-          >
         </v-window-item>
         <v-window-item value="option-2">
           <div class="vertical-tabs-img-wrap" flat>

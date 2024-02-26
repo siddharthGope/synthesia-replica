@@ -101,4 +101,7 @@ section {
 .tabs-section {
   padding: 0 6rem 5rem;
 }
+.virtical-section {
+  background-color: #f5f7fe;
+}
 </style>

@@ -31,7 +31,7 @@
       </v-menu>
     </div>
     <div class="d-flex justify-space-around align-center nav-buttons-wrap">
-      <div class="caption">Log in</div>
+      <div class="login-btn">Log in</div>
       <div class="blue-button nav-margin-left">Create Account</div>
     </div>
   </div>
@@ -167,5 +167,8 @@ export default {
 }
 .nav-margin-left {
   margin-left: 20px;
+}
+.login-btn:hover {
+  color: #084df2;
 }
 </style>
